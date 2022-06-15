@@ -1,2 +1,0 @@
-# ePortfolio
-Web Development Projects
