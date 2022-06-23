@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 
 .image small {
-	size: 45%;
+	size: 100%;
 }
 
 body {
@@ -3316,6 +3316,7 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+		zoom: 60%;
 	}
 
 		#intro input, #intro select, #intro textarea {
