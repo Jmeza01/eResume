@@ -2,7 +2,7 @@
 
 ## Please <a href="https://jmeza01.github.io/ePortfolio/">Click Here</a> to access my ePortfolio Resume!
 
-## OR
+##                                                  OR
 
 ## Click <a href='https://github.com/Jmeza01/ePortfolio/tree/main/PacMen%20Exercise'>Here</a> to review my <em>"Pacmen Exercise - Project One"</em> in this ePortfolio.
 
