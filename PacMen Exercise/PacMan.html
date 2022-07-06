@@ -1,0 +1,53 @@
+<html>
+<SCRIPT>
+    var pos = 0;
+    var pageWidth = window.innerWidth;
+    const pacArray = [
+        ['PacMan1.png', 'PacMan2.png'],
+        ['PacMan3.png', 'PacMan4.png']
+    ];
+    var direction = 0; //Either True (1) or False (0)
+    var focus = 0;
+
+    function Run() {
+        let img = document.getElementById("PacMan"); //DOM 
+        let imgWidth = img.width
+        
+        focus = (focus + 1) % 2; // Divides and keeps gives up the Remainder either from 0+1 = 1/2 = {0.5} or from 1+1 = 2/2 = {1}
+        direction = checkPageBounds(direction, imgWidth, pos, pageWidth);
+        img.src = pacArray[direction][focus];
+        
+        if (direction) {
+            //Moving Backwards
+            pos -= 20;
+            img.style.left = pos + "px";
+        } else {
+            // Moving Forward
+            pos += 20;
+            img.style.left = pos + 'px';
+        }
+        // Use setTimeout to call Run every 200 milliseconds
+        setInterval(Run, 200);
+    }
+
+    function checkPageBounds(direction, imgWidth, pos, pageWidth) {
+        //
+        // Check what direction either forward or backwards the object should go. 
+        // By its current direction and position + img.width where it may be over the webpages width.
+        //
+        if (direction == 0 && pos + imgWidth > pageWidth) {
+            direction = 1;
+        }
+        if (direction == 1 && pos < 0) {
+            direction = 0;
+        }
+        return direction; //Calls out new position from screen width bounds
+    }
+</SCRIPT>
+
+<body>
+    <img id="PacMan" src="PacMan1.png" width='200' onclick="Run()" style="position:absolute"> </img>
+    <!--Storing Data into DOM (Document Object Modeling)-->
+</body>
+
+</html>
