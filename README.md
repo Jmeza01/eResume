@@ -1,15 +1,15 @@
-# Web Development Projects
+# eResume and Web Development Project
 
-## Please <a href="https://jmeza01.github.io/eResume/">Click Here</a> to access my ePortfolio Resume!
-
-# Technologies Used 📚: 
-									- ReactJS 🌐 <br> 
-									- Fetch API 💻 <br>
-									- DOM 🔨 <br>
-									- HTML5 📝 <br>
-									- CSS 🎨 <br>
-									- Bootstrap5 🎨 <br>
-									- Node.JS 🔋 <br>
-									- Git 🚀<br>
-									- Docker 🐳
+## Please <a href="https://jmeza01.github.io/eResume/">Click Here</a> to access my eResume!
+## Technologies used for creating this static website 📚: 
+							- ReactJS 📝 
+							- Fetch API 💻 
+							- DOM 🔨
+							- HTML5 📝 
+							- CSS3 🎨 
+							- Bootstrap5 🎨 
+							- Node.JS 🔋 
+							- Git 🚀
+							- Docker 🐳
+	 						
                   
