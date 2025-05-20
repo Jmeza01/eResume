@@ -153,7 +153,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Lora", Georgia, serif;
+		font-family: hero-new, sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -181,14 +181,14 @@ input, select, textarea {
 	}
 
 	p {
-		font-family: "Lora", Georgia, serif;
+		font-family: hero-new, sans-serif;
 		font-size: 14px;
-		text-align: justify;
+		text-align:justify;
 		margin: 0 0 2rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Lora", Georgia, serif;
+		font-family: hero-new, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -2595,7 +2595,8 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border: 0;
+		border: 10px solid lightgrey;
+		border-radius: 50px;
 		display: inline-block;
 		position: relative;
 	}
@@ -3291,7 +3292,8 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 4rem 4rem 2rem 4rem ;
+		/*padding: 8rem 4rem 6rem 4rem ;*/
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -4640,7 +4642,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: "hero-new", sans-serif;
 				font-weight: 900;
 			}
 
