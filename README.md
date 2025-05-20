@@ -1,8 +1,7 @@
 #  eResume and Web Development Project
 
 ## Please <a href="https://jmeza01.github.io/eResume/">Click Here</a> to access my eResume!
-
-# Technologies Used for creating this static website 📚: 
+# Technologies used for creating this static website 📚: 
 									- ReactJS 📝 <br> 
 									- Fetch API 💻 <br>
 									- DOM 🔨 <br>
