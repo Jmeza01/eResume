@@ -11,5 +11,5 @@
 							- Node.JS 🔋 
 							- Git 🚀
 							- Docker 🐳
-	 						- HTML5 UP! 🌐
+	 						
                   
