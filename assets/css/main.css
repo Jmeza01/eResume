@@ -2927,7 +2927,7 @@ input, select, textarea {
 		}
 
 		header > p {
-			font-style: italic;
+			font-style: normal;
 		}
 
 		header > h1 + p {
@@ -2961,6 +2961,16 @@ input, select, textarea {
 			}
 
 			header.major > p {
+				margin-top: 0;
+				text-align: center;
+			}
+
+			header.major > h2 {
+				margin-top: 0;
+				text-align: center;
+			}
+
+			header.major > h3 {
 				margin-top: 0;
 				text-align: center;
 			}
